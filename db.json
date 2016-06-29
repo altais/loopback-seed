@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 3,
+    "ACL": 1,
+    "RoleMapping": 3,
+    "Role": 3,
+    "UserModel": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {
+      "4lL51my4w3ZZ3ANf7RWTCuNvXuE6LuX4God8iLkP0NeHAiLMx8RYOhypDutHCC8q": "{\"id\":\"4lL51my4w3ZZ3ANf7RWTCuNvXuE6LuX4God8iLkP0NeHAiLMx8RYOhypDutHCC8q\",\"ttl\":1209600,\"created\":\"2016-06-29T21:42:16.454Z\",\"userId\":1}",
+      "oOqbOSKhWTjjdmR8b8QNgFZ2RNAUlhbJwqUZPIXPxFcrqcCmaRhic9DFSFXpvQyl": "{\"id\":\"oOqbOSKhWTjjdmR8b8QNgFZ2RNAUlhbJwqUZPIXPxFcrqcCmaRhic9DFSFXpvQyl\",\"ttl\":1209600,\"created\":\"2016-06-29T21:42:45.732Z\",\"userId\":2}"
+    },
+    "ACL": {},
+    "RoleMapping": {
+      "1": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":1,\"id\":1}",
+      "2": "{\"principalType\":\"USER\",\"principalId\":\"2\",\"roleId\":2,\"id\":2}"
+    },
+    "Role": {
+      "1": "{\"name\":\"admin\",\"created\":\"2016-06-29T21:41:02.477Z\",\"modified\":\"2016-06-29T21:41:02.477Z\",\"id\":1}",
+      "2": "{\"name\":\"users\",\"created\":\"2016-06-29T21:41:02.479Z\",\"modified\":\"2016-06-29T21:41:02.479Z\",\"id\":2}"
+    },
+    "UserModel": {
+      "1": "{\"username\":\"admin\",\"password\":\"$2a$10$QXfMub8Smq4VMm0YOVAbjeWpdoGk/OATu8EZ6bCv2M2bKhkpVXoTW\",\"email\":\"admin@admin.com\",\"firstName\":\"Admin\",\"lastName\":\"User\",\"id\":1}",
+      "2": "{\"username\":\"user\",\"password\":\"$2a$10$gKrX1BgpCRVgyBw8ouz7ZOZezamqR26o9y27Azn1NYiPTsdncaR7m\",\"email\":\"user@user.com\",\"firstName\":\"Guest\",\"lastName\":\"User\",\"id\":2}"
+    }
+  }
+}
