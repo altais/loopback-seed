@@ -2,8 +2,8 @@
   "facebook-login": {
     "provider": "facebook",
     "module": "passport-facebook",
-    "clientID": "276071389420552",
-    "clientSecret": "d9483062c05b77368dc6717e57781b75",
+    "clientID": "",
+    "clientSecret": "",
     "callbackURL": "http://localhost:3000/auth/facebook/callback",
     "authPath": "/auth/facebook",
     "callbackPath": "/auth/facebook/callback",
