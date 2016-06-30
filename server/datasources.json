@@ -1,7 +1,8 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory",
-    "file": "db.json"
+    "connector": "loopback-connector-mongodb",
+    "url": "mongodb://trading:trading@ds029207.mlab.com:29207/trading"
   }
 }
+
