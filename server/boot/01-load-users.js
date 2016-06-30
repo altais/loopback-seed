@@ -5,9 +5,9 @@ var log = require('debug')('boot:01-load-users');
 
 module.exports = function(app) {
 
-  if (app.dataSources.db.name !== 'Memory' && !process.env.INITDB) {
-    return;
-  }
+  // if (app.dataSources.db.name !== 'Memory' && !process.env.INITDB) {
+  //   return;
+  // }
 
   createDefaultUsers();
 
@@ -15,7 +15,7 @@ module.exports = function(app) {
 
     log('Creating roles and users');
 
-    var User = app.models.UserModel;
+    var User = app.models.Account;
     var Role = app.models.Role;
     var RoleMapping = app.models.RoleMapping;
 
